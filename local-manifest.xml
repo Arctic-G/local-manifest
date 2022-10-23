@@ -1,1 +1,16 @@
-This is just the base file. I recommend you checking the branches for each android versions.
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+          
+<!-- Remotes -->
+<remote name="arctic" fetch="https://github.com/Arctic-G" />
+<remote name="evox" fetch="https://github.com/Evolution-X" />
+
+<!-- Device Trees -->
+<project path="device/xiaomi/spes" name="device_xiaomi_spes" remote="arctic" revision="snow"/>
+<project path="vendor/xiaomi/spes" name="vendor_xiaomi_spes" remote="arctic" revision="12"/>
+<project path="kernel/xiaomi/spes" name="kernel_xiaomi_spes-header" remote="arctic" revision="12" clone-depth="1"/>
+          
+<!-- Extras -->
+<project path="hardware/xiaomi" name="hardware_xiaomi" remote="evox" revision="snow"/>
+          
+</manifest>
