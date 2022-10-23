@@ -7,7 +7,7 @@
 <remote name="etylix" fetch="https://github.com/etylix" />
 
 <!-- Device Trees -->
-<project path="device/xiaomi/spes" name="device_xiaomi_spes" remote="arctic" revision="tiramisu"/>
+<project path="device/xiaomi/spes" name="device_xiaomi_spes" remote="arctic" revision="arrow-tiramisu"/>
 <project path="vendor/xiaomi/spes" name="vendor_xiaomi_spes" remote="etylix" revision="tiramisu"/>
 <project path="kernel/xiaomi/spes" name="kernel_xiaomi_spes_header" remote="etylix" revision="12" clone-depth="1"/>
           
