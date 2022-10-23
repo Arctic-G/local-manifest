@@ -3,14 +3,14 @@
           
 <!-- Remotes -->
 <remote name="arctic" fetch="https://github.com/Arctic-G" />
-<remote name="evox" fetch="https://github.com/Evolution-X" />
+<remote name="evox" fetch="https://github.com/LineageOS" />
 
 <!-- Device Trees -->
-<project path="device/xiaomi/spes" name="device_xiaomi_spes" remote="arctic" revision="snow"/>
+<project path="device/xiaomi/spes" name="device_xiaomi_spes" remote="arctic" revision="11.0"/>
 <project path="vendor/xiaomi/spes" name="vendor_xiaomi_spes" remote="arctic" revision="12"/>
 <project path="kernel/xiaomi/spes" name="kernel_xiaomi_spes-header" remote="arctic" revision="12" clone-depth="1"/>
           
 <!-- Extras -->
-<project path="hardware/xiaomi" name="hardware_xiaomi" remote="evox" revision="snow"/>
+<project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="lineage" revision="lineage-18.1"/>
           
 </manifest>
